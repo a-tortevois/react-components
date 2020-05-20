@@ -1,0 +1,20 @@
+.Arc-progress-bar {
+  display: block;
+  margin: 0 auto;
+}
+
+svg path.background {
+  fill: none;
+}
+
+svg path.progress {
+  fill: none;
+}
+
+svg text.value {
+  font-size: 150%;
+  font-weight: bold;
+  color: black;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
