@@ -1,0 +1,24 @@
+.arc-progress-bar {
+  svg {
+    display: block;
+    margin: 0 auto;
+
+    path {
+      fill: none;
+
+      &.background {
+      }
+
+      &.progress {
+      }
+    }
+
+    text {
+      font-size: 150%;
+      font-weight: bold;
+      color: black;
+      dominant-baseline: middle;
+      text-anchor: middle;
+    }
+  }
+}

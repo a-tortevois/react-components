@@ -1,0 +1,28 @@
+.flag-circled {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+
+  img {
+    height: 100%;
+    width: 100%;
+    display: inline;
+    margin: 0 auto;
+  }
+
+  div {
+    height: 100%;
+    width: 100%;
+    display: table;
+    background: #eee;
+
+    span {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      font-weight: 500;
+    }
+  }
+}
